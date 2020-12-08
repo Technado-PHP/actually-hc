@@ -1,0 +1,70 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~vue-wysiwyg/dist/vueWysiwyg.css';
+@import '~summernote/dist/summernote.min.css';
+/* @import '~summernote/dist/summernote-lite.min.css'; */
+@import '~summernote/dist/summernote-bs4.min.css';
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  transition: all 0.5s ease-in-out;
+}
+input,select,textarea,textarea:focus,input:focus,button:focus,select:focus{
+  outline: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,ul,li,a,.table,textarea,label{
+  margin: 0;
+  padding: 0;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,li{
+  list-style: none;
+}
+a:hover,a:focus{
+  text-decoration: none;
+}
+.container{
+  max-width: 1170px;
+}
+.editr--content{
+  background: #fff !important;
+}
+.editr--toolbar .dashboard{
+  
+}
+.editr--toolbar .dashboard label{
+  font-size: 14px;
+  color: #000;
+}
+.editr--toolbar .dashboard input{
+  width: 100% !important;
+}
+.editr--toolbar .dashboard button{
+  width: 90px;
+  background: #000;
+  color: #fff;
+  border: 1px solid #000;
+  font-size: 14px;
+  padding: 2px 0;
+}
+/* responsive css */
+@media only screen and (max-width:1540px) {}
+
+@media only screen and (max-width:1040px) {}
+
+@media only screen and (max-width:1024px) {}
+
+@media only screen and (max-width:991px) {}
+
+@media only screen and (max-width:910px) {}
+
+@media only screen and (max-width:767px) {}
+
+@media only screen and (max-width:575px) {}
+
+@media only screen and (max-width:385px) {}
